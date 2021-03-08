@@ -1,0 +1,141 @@
+body {
+  background-color: #6a6a6a;
+}
+
+nav {
+  margin-bottom: 100px;
+}
+
+.navbar-brand {
+  color: #e9ba3b;
+  font-size: 30px;
+}
+
+.navbar-brand:hover {
+  color: #e9ba3b;
+}
+
+.nav-item a {
+  color: #dddddd;
+}
+
+.nav-item a:hover {
+  color: #e9ba3b;
+}
+
+.lead {
+  font-size: 30px;
+  color: #e9ba3b;
+}
+
+p {
+  color: #dddddd;
+}
+
+h1 {
+  color: #e9ba3b;
+}
+
+h2 {
+  color: #e9ba3b;
+}
+
+h3 {
+  color: white;
+}
+
+.card-body {
+  background-color: #1e2128;
+}
+
+.card-title {
+  color: #e9ba3b;
+}
+
+.card .btn {
+  background: #1e2128;
+  color: #e9ba3b;
+  border-color: #e9ba3b;
+}
+
+.table {
+  color: #e9ba3b;
+}
+
+.content h2 {
+  color: #dddddd;
+}
+
+.content .btn {
+  min-height: 50px;
+  border-radius: 0;
+  background: #e9ba3b;
+  color: white;
+  font-weight: 600;
+}
+
+.col-sm-12 {
+  margin-top: 200px;
+}
+
+.rowlast {
+  background-color: #1e2128;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #e9ba3b;
+}
+
+li a:hover {
+  color: white;
+}
+
+.stats {
+  margin-top: 50px;
+}
+
+#submit {
+  color: #e9ba3b;
+}
+
+.container .survey {
+  margin-top: 50px;
+}
+
+#hide {
+  color: #e9ba3b;
+}
+
+#show {
+  color: #e9ba3b;
+}
+
+#take {
+  color: #e9ba3b;
+}
+
+#hide-survey {
+  color: #e9ba3b;
+}
+
+#hideTable {
+  color: #e9ba3b;
+}
+
+#showTable {
+  color: #e9ba3b;
+}
+
+#savep {
+  color: #e9ba3b;
+}
+
+#likeit {
+  color: #e9ba3b;
+}
+/*# sourceMappingURL=index.css.map */

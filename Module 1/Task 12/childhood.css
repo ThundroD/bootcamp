@@ -1,0 +1,92 @@
+/* This is an external CSS Style Sheet */
+
+body {  
+    background-color: #00C9B8;
+    margin-top: 10%;
+    margin-bottom: 10%;/* Add in color and a bit of margin to the top and bottom */
+}  
+h1 { 
+    font-size: 150px; 
+    color: #FCD200;
+    margin-top: 5%;  /* Add font size color and a bit more margin to top */
+}
+h2 {
+    font-size: 75px;
+    font-family: Helvetica;
+    color: #FE5E54;
+    margin-top: 10%;
+    margin-bottom: 5%;/* Add font size color and a bit more margin to top and bottom */
+}
+img {
+    float: left;
+    max-width: 360px;
+    height: 360px;
+    padding: 0 10px 0px 0;
+    border-radius: 50%; /* Float the images and create them into circles adding a bit of padding */
+  }
+  
+p {
+    text-align: justify;
+    font-family: Helvetica;
+    font-size: 30px;
+    color: #E2E0E5; /* Add justify to text letting in wrap around the images the as the screen becomes bigger or smaller, add color, size */
+    
+}
+a {
+    color: #f37736;
+}/* Add a bit of color to the hyperlink true to other colors on the page */
+a:hover{
+    background-image:     linear-gradient(
+       to right, 
+       #E7484F,
+       #E7484F 16.65%,
+       #F68B1D 16.65%,
+       #F68B1D 33.3%,
+       #FCED00 33.3%,
+       #FCED00 49.95%,
+       #009E4F 49.95%,
+       #009E4F 66.6%,
+       #00AAC3 66.6%,
+       #00AAC3 83.25%,
+       #732982 83.25%,
+       #732982 100%,
+       #E7484F 100%
+    );
+   animation:slidebg 2s linear infinite;/* Create a animated hover image aroudn the hyperlink, fun since it is about a child */
+ }
+
+.container{
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 30%;
+} /* Create the cotainer relative and create a bit of margin both top and bottom*/
+
+#button{
+    position: fixed;
+    bottom: -4px;
+    right: 10px;/* Fix the button to bottom right side. Easy access for those who want to go to the top */
+}
+.btn:hover{
+    background-image:     linear-gradient(
+       to right, 
+       #E7484F,
+       #E7484F 16.65%,
+       #F68B1D 16.65%,
+       #F68B1D 33.3%,
+       #FCED00 33.3%,
+       #FCED00 49.95%,
+       #009E4F 49.95%,
+       #009E4F 66.6%,
+       #00AAC3 66.6%,
+       #00AAC3 83.25%,
+       #732982 83.25%,
+       #732982 100%,
+       #E7484F 100%
+    );
+   animation:slidebg 2s linear infinite;/* Add animated rainbow colors to button when hovered */
+ }
+ @keyframes slidebg {
+    to {
+      background-position:20vw; /* Keyframes specifies the animation code above */
+    }
+  }

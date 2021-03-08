@@ -1,0 +1,124 @@
+$background-color: rgb(106, 106, 106);
+$yellow-color: rgb(233, 186, 59);
+$white-color:rgb(255, 255, 255);
+$black-color:rgb(30, 33, 40);
+$offwhite-color: rgb(221, 221, 221); //create color scheme
+
+body {
+    background-color: $background-color; //set body color
+};
+nav{
+    margin-bottom: 100px; //set navbar margin
+};
+.navbar-brand{
+    color: $yellow-color; //set navebar name color and size
+    font-size: 30px;
+};
+.navbar-brand:hover{
+    color: $yellow-color; //set navbar name hover to same
+};
+.nav-item a{
+    color: $offwhite-color; //set navbar text color
+};
+.nav-item a:hover{
+    color: $yellow-color; //set navbar text hover color
+};
+
+.lead{
+    font-size: 30px;
+    color:$yellow-color; //style lead quote color and font
+};
+p {
+    color: $offwhite-color; //give paragraph color
+};
+h1 {
+    color: $yellow-color; //give h1 color 
+};
+h2 {
+    color: $yellow-color; // give h2 color
+};
+h3 {
+    color: $white-color; //give h2 color
+};
+.card-body{
+    background-color:$black-color; // color card body
+};
+.card-title {
+    color: $yellow-color; //color card body title
+};
+.card .btn {
+    background: $black-color;
+    color: $yellow-color;
+    border-color: $yellow-color; //set background, color and boarder color to card button
+};
+.table{
+    color: $yellow-color; // set table color
+};
+.content h2{
+    color: $offwhite-color; //set form text color
+};
+.content .btn {
+    min-height: 50px; 
+    border-radius:0;
+    background: $yellow-color;
+    color: $white-color;
+    font-weight:600; //set form button sizing adn color
+    };
+.col-sm-12{
+    margin-top:200px; //set margin for extra room between columns
+};
+
+.rowlast{
+    background-color: $black-color; // set background to highlight text in last row
+};
+ul {
+    list-style-type: none; //take away bullet points from ul
+};
+li a{
+    text-decoration: none; //take away underline from links and set color
+    color: $yellow-color;
+    
+};
+li a:hover{
+    color: $white-color; //set hover color for il 
+};
+.stats{
+    margin-top: 50px; //create margin between states and paragraphs
+};
+#submit{
+    color:$yellow-color; // color submit button
+};
+.container .survey{
+    margin-top: 50px; // create margin for extra room between survery and others
+};
+
+#hide{
+    color: $yellow-color;
+};
+
+#show{
+    color: $yellow-color;
+};
+
+#take{
+    color: $yellow-color;
+}
+
+#hide-survey{
+    color: $yellow-color;
+};
+
+#hideTable{
+    color: $yellow-color;
+}
+
+#showTable{
+    color: $yellow-color;
+}
+
+#savep{
+    color: $yellow-color;
+}
+#likeit{
+    color: $yellow-color;
+}

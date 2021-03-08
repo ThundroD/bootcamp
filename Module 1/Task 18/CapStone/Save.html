@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+        <title>Around the World In A Life Time</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href = "/styling/index.css" type = "text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head> <!--Open document, give title, add Bootstrap and Index CSS-->
+    <body>
+        <nav class="navbar navbar-expand-lg"><!--Create Nav Bar with Home and Explore Places-->
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Around the World in a Life Time</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link active" aria-current="page" href="/Index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Explore Places
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a style="color:rgb(233, 186, 59);" class="dropdown-item" href="/Mexico.html">Mexico</a>
+                      <a style="color:rgb(233, 186, 59);" class="dropdown-item" href="/IndexChina.html">China</a>
+                      <a style="color:rgb(233, 186, 59);" class="dropdown-item" href="/IndexSA.html">South Africa</a>
+                      <a style="color:rgb(233, 186, 59);" class="dropdown-item" href="/Save.html">Saved Articles</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <div class="container"><!--Creates a grid system for the rest of the document-->
+            <div class="row"><!--Opens new row-->
+                <h1>Saved Articles</h1>
+                <span id="saResult"></span><br>
+                <span id="mexResult"></span><br>
+                <span id="chinaResult"></span><br>
+            </div>
+        </div>
+        
+
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+          <script src="/styling/Save.js"></script>
+        </body>
+      </html><!--Close-->

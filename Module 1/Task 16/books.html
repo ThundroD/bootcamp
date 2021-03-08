@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet"
+    href="https://bootswatch.com/4/minty/bootstrap.min.css"> <!--Add bootstrap to make css easy adn to make page pretty-->
+    <title>Book Library</title><!--Add a title-->
+
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="display-4 text-center">Book <span
+          class="text-primary">Library</span></h1><!--Make a H1 for the title of the form, make Library a different color to add contrast-->
+        <form id="book-form"><!--create form the enter information about books-->
+            <div class="form-group"><!--create a area for people to enter the book title-->
+                <label for="title">Title</label>
+                <input type="text" id="title"
+                class="form-control">
+            <div class="form-group"><!--create a area for people to enter the book author-->
+                <label for="author">Author</label>
+                <input type="text" id="author"
+                class="form-control">
+                </div>
+            <div class="form-group"><!--create a area for people to enter the book genre-->
+                <label for="genre">Genre</label>
+                <input type="text" id="genre"
+                class="form-control">
+                </div>
+            <div class="form-group"><!--create a area for people to enter the book review-->
+                <label for="review">Please Review the book</label>
+                <input type="text" id="review"
+                class="form-control">
+                </div>
+            <input type="submit" value="Add Book" 
+            class= "btn btn-primary bt-block"><!--add submit button give it a class for color and btn-block to span the entire element of form-->
+        </form>
+        <table class="table tabel-striped mt-4"><!--create a table-->
+            <thred>
+                <tr>
+                    <th>Title</th><!--Create table headings of title, author, genre, and review-->
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Review</th>
+                </tr>
+            </thred>
+            <tbody contentEditable="true" id="book-list"></tbody><!--create tbody make contente editable true for user to edit content-->
+
+        </table>
+    </div>
+    <script src="books.js"></script><!--add JS script to run-->
+</body>
+
+</html><!--close body and html-->

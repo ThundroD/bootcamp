@@ -1,0 +1,119 @@
+$outline-color:#191414;
+$hover-color:#1DB954;
+$txt-color:rgb(255, 255, 255);
+$lowertext-color:rgb(145, 145, 150);
+$background-color: rgb(47, 74, 182);// add color scheme
+
+
+@media screen and (min-width: 766px){
+    h1{
+        font-size: 100px;
+        padding-top: 10%;
+    }
+    h4{
+        font-size: 20px;
+        padding-top: 2%;
+    }// create min width for h1, h4 text to change
+
+   
+  
+}
+@media screen and (max-width: 765px){
+    h1{
+        font-size: 50px;
+        padding-top: 20%;
+    }
+
+    h4{
+        font-size: 15px;
+        padding-top: 2%;
+    }//create max width for h1 and h4 text to change 
+}
+
+body {
+    background-color: $background-color;
+    padding-top: 60px;//style body color and give some extra padding, this is for the h1 text and navbar
+   }
+h1{
+    color: $hover-color;// create h1 color
+}
+
+h4{
+    color: $hover-color;// create h4 color
+}
+
+.btn{
+    background-color: $hover-color;
+    border-radius: 40px;
+    color: $background-color;
+    margin-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;//style button adding a bit of margin and padding and rounding off edges with border radius, add color
+    
+}
+.btn:hover{
+    background-color: $txt-color;
+    color: $background-color// give hover color to button
+}
+
+.navbar-nav{
+    color: $hover-color;// give nav bar text color
+}
+
+footer{
+    background-color: $outline-color;
+    padding-bottom: 34.05%;
+    padding-top: 8.05%;
+    margin-top: 10%;
+    margin-bottom: 0%;// give footer a background color and add padding to both top and bottom as well as margin to make everything fit
+    
+}
+
+dt{
+    color: $lowertext-color;
+    font-size: 15px;// give list text color and size
+}
+dd a{
+    color: $txt-color;
+    text-decoration: none;
+    font-size: 18px;// give list text color and size
+}
+dd a:hover{
+    color: $hover-color;// give list text a hover color
+}
+.company{
+    float: left;
+    margin: 30px;// float list left and give margin for them to become horizontal
+}
+.communities{
+    float: left;
+    margin: 30px;// float list left and give margin for them to become horizontal
+}
+.useful{
+    float: left;
+    margin: 30px;// float list left and give margin for them to become horizontal
+}
+.bottomlinks a{
+    color: $lowertext-color;
+    text-decoration: none;
+    font-size: 10px;// give bottom list color, take away underine, give text sizing
+}
+.legaletc{
+    list-style-type: none;//make sure list has not bullet points with style type none
+}
+ul > li {
+    display: inline-block; // create inline block
+
+}
+.copyright{
+color: $lowertext-color;
+font-size: 10px;
+float: right; // style copyright and float right to be on other side of screen
+}
+p{
+    color:$txt-color //give paragraph text color to show in dark background
+}
+#navbarSupportedContent{
+    left: auto;
+    right: 0px; // this is an attempt for the collapsable menu to go right not left
+}
